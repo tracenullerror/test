@@ -49,7 +49,7 @@ enum {
 -(id) init
 {
 	if( (self=[super init])) {
-		
+		NSLog(@"ddd");
 		// enable events
 		
 		self.touchEnabled = YES;
